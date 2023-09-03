@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   rig:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-09-03T20:18:29.369590042Z"
+    description: A Helm chart for Kubernetes
+    digest: 0e48e9475731636e7b42d95164759e5a594e17f09e78d98a0a356183169a42c2
+    name: rig
+    type: application
+    urls:
+    - https://github.com/rigdev/charts/releases/download/rig-0.4.0/rig-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
     appVersion: 0.7.1
     created: "2023-09-01T12:55:26.34458111Z"
     description: A Helm chart for Kubernetes
@@ -91,4 +101,4 @@ entries:
     urls:
     - https://github.com/rigdev/charts/releases/download/rig-0.1.0/rig-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-01T12:55:26.344616401Z"
+generated: "2023-09-03T20:18:29.369626243Z"
