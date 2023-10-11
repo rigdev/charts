@@ -132,6 +132,22 @@ entries:
   rig-platform:
   - apiVersion: v2
     appVersion: 0.2.0
+    created: "2023-10-11T09:13:11.054665257Z"
+    dependencies:
+    - condition: rig-operator.enabled
+      name: rig-operator
+      repository: https://charts.rig.dev
+      version: 0.1.4
+    description: Rig application platform for Kubernetes.
+    digest: bd05ec26157b4a8abb7705916626ee00e32c326dd2fa8735a4478dd25695bf5f
+    home: https://github.com/rigdev/rig
+    name: rig-platform
+    type: application
+    urls:
+    - https://github.com/rigdev/charts/releases/download/rig-platform-0.2.0/rig-platform-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.2.0
     created: "2023-10-11T07:00:48.419227335Z"
     dependencies:
     - condition: rig-operator.enabled
@@ -291,4 +307,4 @@ entries:
     urls:
     - https://github.com/rigdev/charts/releases/download/rig-platform-0.1.0/rig-platform-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-11T07:00:48.419380643Z"
+generated: "2023-10-11T09:13:11.054843658Z"
