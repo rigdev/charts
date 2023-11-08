@@ -80,6 +80,16 @@ entries:
     version: 0.4.1
   rig-operator:
   - apiVersion: v2
+    appVersion: 1.3.1
+    created: "2023-11-08T11:38:33.152757578Z"
+    description: rig-operator implements the controller logic for the Rig CRDs
+    digest: f26014608fd1f3e23f9c78f719e5179c1c84161666d05f83b70429c10329dd58
+    name: rig-operator
+    type: application
+    urls:
+    - https://github.com/rigdev/charts/releases/download/rig-operator-0.1.9/rig-operator-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
     appVersion: 1.3.0
     created: "2023-11-06T13:40:24.718013362Z"
     description: rig-operator implements the controller logic for the Rig CRDs
@@ -170,6 +180,17 @@ entries:
     - https://github.com/rigdev/charts/releases/download/rig-operator-0.1.0/rig-operator-0.1.0.tgz
     version: 0.1.0
   rig-platform:
+  - apiVersion: v2
+    appVersion: 0.3.1
+    created: "2023-11-08T11:38:33.290722031Z"
+    description: Rig application platform for Kubernetes.
+    digest: 8c5c12803f18dc110b88b1cfc0ac2d610175ccc217830c83321c8d91353babb0
+    home: https://github.com/rigdev/rig
+    name: rig-platform
+    type: application
+    urls:
+    - https://github.com/rigdev/charts/releases/download/rig-platform-0.2.11/rig-platform-0.2.11.tgz
+    version: 0.2.11
   - apiVersion: v2
     appVersion: 0.3.0
     created: "2023-11-06T13:40:24.854157869Z"
@@ -462,4 +483,4 @@ entries:
     urls:
     - https://github.com/rigdev/charts/releases/download/rig-platform-0.1.0/rig-platform-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-06T13:40:24.854352502Z"
+generated: "2023-11-08T11:38:33.290929798Z"
