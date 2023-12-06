@@ -80,6 +80,16 @@ entries:
     version: 0.4.1
   rig-operator:
   - apiVersion: v2
+    appVersion: 1.5.0
+    created: "2023-12-06T06:04:56.733110286Z"
+    description: rig-operator implements the controller logic for the Rig CRDs
+    digest: 621f9751e82b7f2f5d7a11cc5d927743d6362a95849da3fc7502e1940e8625d3
+    name: rig-operator
+    type: application
+    urls:
+    - https://github.com/rigdev/charts/releases/download/rig-operator-0.1.20/rig-operator-0.1.20.tgz
+    version: 0.1.20
+  - apiVersion: v2
     appVersion: 1.5.0-rc.9
     created: "2023-12-05T15:02:13.900198946Z"
     description: rig-operator implements the controller logic for the Rig CRDs
@@ -291,6 +301,17 @@ entries:
     version: 0.1.0
   rig-platform:
   - apiVersion: v2
+    appVersion: 0.4.0
+    created: "2023-12-06T06:04:56.835254002Z"
+    description: Rig application platform for Kubernetes.
+    digest: 7a000eef642f4a5a1c27dfef7516564d84f1e6ac2c3a4ca20b59fb7956a7e192
+    home: https://github.com/rigdev/rig
+    name: rig-platform
+    type: application
+    urls:
+    - https://github.com/rigdev/charts/releases/download/rig-platform-0.2.20/rig-platform-0.2.20.tgz
+    version: 0.2.20
+  - apiVersion: v2
     appVersion: 0.4.0-rc.7
     created: "2023-12-05T11:26:05.726473587Z"
     description: Rig application platform for Kubernetes.
@@ -369,9 +390,9 @@ entries:
     version: 0.2.13
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2023-11-15T12:28:51.364421322Z"
+    created: "2023-11-17T08:21:14.911408414Z"
     description: Rig application platform for Kubernetes.
-    digest: 390f6f9b6cff64131ed4ea403dbb8d315ac166d88cd0115fa417c1d8e3ed83b9
+    digest: 98f6de80cb7c78847bf2e50d52071f7c4fb4fcd43dba58ad775f5a0cd71c2d08
     home: https://github.com/rigdev/rig
     name: rig-platform
     type: application
@@ -380,9 +401,9 @@ entries:
     version: 0.2.13-rc3
   - apiVersion: v2
     appVersion: 0.3.3
-    created: "2023-11-17T08:21:14.911408414Z"
+    created: "2023-11-15T12:28:51.364421322Z"
     description: Rig application platform for Kubernetes.
-    digest: 98f6de80cb7c78847bf2e50d52071f7c4fb4fcd43dba58ad775f5a0cd71c2d08
+    digest: 390f6f9b6cff64131ed4ea403dbb8d315ac166d88cd0115fa417c1d8e3ed83b9
     home: https://github.com/rigdev/rig
     name: rig-platform
     type: application
@@ -736,4 +757,4 @@ entries:
     urls:
     - https://github.com/rigdev/charts/releases/download/rig-platform-0.1.0/rig-platform-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-05T15:02:14.01492026Z"
+generated: "2023-12-06T06:04:56.835672691Z"
