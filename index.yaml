@@ -81,6 +81,16 @@ entries:
   rig-operator:
   - apiVersion: v2
     appVersion: 1.7.6
+    created: "2024-03-27T17:54:10.081242783Z"
+    description: rig-operator implements the controller logic for the Rig CRDs
+    digest: 2830a88ac195ea0af8533e5b400f80440ca39b827173a32ec25fc4736a1353f6
+    name: rig-operator
+    type: application
+    urls:
+    - https://github.com/rigdev/charts/releases/download/rig-operator-1.0.6/rig-operator-1.0.6.tgz
+    version: 1.0.6
+  - apiVersion: v2
+    appVersion: 1.7.6
     created: "2024-03-27T12:27:37.64110922Z"
     description: rig-operator implements the controller logic for the Rig CRDs
     digest: 71114e21a4210daef4e1444e33bf975bec5225233ee2821a9f19f51ca1d8a438
@@ -1276,4 +1286,4 @@ entries:
     urls:
     - https://github.com/rigdev/charts/releases/download/rig-platform-0.1.0/rig-platform-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-27T12:27:37.72359969Z"
+generated: "2024-03-27T17:54:10.20212814Z"
