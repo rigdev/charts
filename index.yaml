@@ -881,6 +881,17 @@ entries:
     version: 0.1.0
   rig-platform:
   - apiVersion: v2
+    appVersion: 1.6.8
+    created: "2024-10-11T08:36:08.25953711Z"
+    description: Rig application platform for Kubernetes.
+    digest: f410ac34c1707de6be345204dab99ba33df37b6fc2bc21f52936a8796be700bd
+    home: https://github.com/rigdev/rig
+    name: rig-platform
+    type: application
+    urls:
+    - https://github.com/rigdev/charts/releases/download/rig-platform-1.0.56/rig-platform-1.0.56.tgz
+    version: 1.0.56
+  - apiVersion: v2
     appVersion: 1.6.7
     created: "2024-10-09T11:22:45.435478903Z"
     description: Rig application platform for Kubernetes.
@@ -2173,4 +2184,4 @@ entries:
     urls:
     - https://github.com/rigdev/charts/releases/download/rig-platform-0.1.0/rig-platform-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-10T10:43:38.744332855Z"
+generated: "2024-10-11T08:36:08.260519051Z"
